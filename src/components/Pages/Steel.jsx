@@ -13,21 +13,20 @@ import Aboutcopy from '../Elements/Aboutcopy';
 import Engineering from '../Elements/Engineering';
 import Renewable from '../Elements/Renewable';
 import CoatingPage from '../Elements/CoatingPage';
-import RefrigerationPage from '../Elements/RefrigerationPage';
-import EquipmentPage from '../Elements/EquipmentPage';
+import SteelPage from '../Elements/SteelPage';
 
 var bnrimg = require('./../../images/All manpower img/Services.webp');
 
-class Equipment  extends React.Component {
+class Steel  extends React.Component {
     render() {
         return (
             <>
 
                 <Header />
                 <div className="page-content">
-                    <Banner title="Equipment Rental Services" pagename="About Us" bgimage={bnrimg}/>
+                    <Banner title="Steel Structure Fabrication Services" pagename="About Us" bgimage={bnrimg}/>
                     {/* <Engineering/> */}
-                    <EquipmentPage/>
+                    <SteelPage/>
                     {/* <OurStory/> */}
 
                 </div>
@@ -39,4 +38,4 @@ class Equipment  extends React.Component {
     };
 };
 
-export default Equipment;
+export default Steel;

@@ -44,6 +44,9 @@ import ManufacturingPage from './Pages/ManufacturingPage';
 import Coating from './Pages/Coating';
 import Industrial from './Pages/Industrial';
 import Refrigeration from './Pages/Refrigeration';
+import Steel from './Pages/Steel';
+import Civil from './Pages/Civil';
+import Equipment from './Pages/Equipment';
 
 class Components extends React.Component {
     render() {
@@ -77,6 +80,9 @@ class Components extends React.Component {
     <Route path='/Coating' element={<Coating/>} />
     <Route path='/Mechanical' element={<Industrial/>} />
     <Route path='/Refrigeration' element={<Refrigeration/>} />
+    <Route path='/Equipment' element={<Equipment/>} />
+    <Route path='/Civil' element={<Civil/>} />
+    <Route path='/Steel' element={<Steel/>} /> 
 
 {/* services */}
 

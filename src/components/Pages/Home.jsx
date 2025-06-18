@@ -19,6 +19,7 @@ import Clients from '../Elements/Clients';
 import OurServices3 from '../Elements/OurServices3';
 import ClientsLogo from '../Elements/ClientsLogo';
 import About2 from './../Elements/About2';
+import Callus2 from '../Elements/Callus2';
 
 class Home extends React.Component {
     render() {
@@ -34,7 +35,7 @@ class Home extends React.Component {
                     <Specialization3/>
                     <ProjectCarousel/>
                     {/* <Specialization3/> */}
-                    <br/>
+                    <Callus2/>
                     {/* <Specialization /> */}
                     {/* <About /> */}
                     {/* <OurValue /> */}

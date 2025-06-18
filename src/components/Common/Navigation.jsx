@@ -60,7 +60,14 @@ class Navigation extends React.Component {
                         </li> */}
                          <li>
                         <NavLink to={""}>Service</NavLink>
-                            <ul className="sub-menu">
+                        
+                            <ul className="sub-menu"   style={{
+    maxHeight: '500px',   // Adjust as needed
+    overflowY: 'auto',
+    overflowX: 'hidden',
+    paddingRight: '10px'  // Optional: avoids hiding content under scrollbar
+    
+  }}>
                                
                                   <li><NavLink to={"/Engineering"}>Engineering Design Services</NavLink></li>
                                                                            <li><NavLink to={"/Oil"}>Oil & Gas Energy</NavLink></li>
@@ -68,11 +75,18 @@ class Navigation extends React.Component {
                                                                            <li><NavLink to={"/Automation"}>Automation Industry</NavLink></li>
                                                                            <li><NavLink to={"/Renewable"}>Renewable energy</NavLink></li>
                                                                            <li><NavLink to={"/Manufacturing"}>Manufacturing</NavLink></li>
+
                                                                            <li><NavLink to={"/Coating"}>Coating/Painting & Sand blasting</NavLink></li>
+                                                                           <li><NavLink to={"/Mechanical"}>Industrial Mechanical & Electrical Works</NavLink></li>
+                                                                           <li><NavLink to={"/Refrigeration"}>Refrigeration Services</NavLink></li>
+                                                                           <li><NavLink to={"/Equipment"}>Equipment Rental Services</NavLink></li>
+                                                                           <li><NavLink to={"/Civil"}>Civil Works</NavLink></li>
+                                                                           <li><NavLink to={"/Steel"}>Steel Structure Fabrication Services</NavLink></li>
                                                                            
 
 
                                 
+  
                             </ul>
                         </li> 
                         <li>

@@ -8,7 +8,7 @@ import ReactPlayer from 'react-player';
 
 var bnrimg = require('./../../images/banner/5.jpg');
 
-class EquipmentPage    extends React.Component {
+class CivilPage    extends React.Component {
     
     render() {
         return (
@@ -23,9 +23,7 @@ class EquipmentPage    extends React.Component {
                         <div className="section-head">
                             <div className="mt-separator-outer separator-left" style={{display:'flex',justifyContent:'center'}}>
                                 <div className="mt-separator" >
-                                    <h2 className="text-uppercase sep-line-one " style={{color:'#E81D21'}}><span className="font-weight-300 text-primary">  </span>Equipment Rental Services
-
-</h2>
+                                    <h2 className="text-uppercase sep-line-one " style={{color:'#E81D21'}}><span className="font-weight-300 text-primary">  </span>Civil Works</h2>
                                 </div>
                             </div>
                         </div>
@@ -76,79 +74,68 @@ class EquipmentPage    extends React.Component {
                                     <div className="bg-white text-black">
                                         {/* <h4 className="font-weight-600">Fueling Growth with Precision and Expertise</h4> */}
                                        
-<h4 className="font-weight-600">  Powering Your Projects with Reliable Equipment</h4>
-<p style={{textAlign:'justify',textJustify:'inter-word'}}>We offer a wide range of heavy and light equipment rental services tailored to construction, industrial, and infrastructure projects. Whether you need equipment for a day, a week, or a long-term project, we provide well-maintained machines with or without operators — ready to perform when you are.
+<h4 className="font-weight-600"> Our Civil Works Services Include :-</h4>
+<h4 className="font-weight-600">Structural Construction</h4>
 
 
-
-                                        </p>
-<h4 className="font-weight-600"> Our Rental Fleet Includes:</h4>
-<h4 className="font-weight-600"> Refrigeration System Installation</h4>
 
 
                                           <div className="m-b0">
-                                                         <h4 className="font-weight-600">Heavy Equipment</h4>
                                                 <ol className="list-num-count" style={{textAlign:'justify',textJustify:'inter-word'}}>
-                                                    <li>Excavators
+                                                    <li>Foundation works (pile, raft, isolated footings)
+                                                    </li>
+                                                    <li> RCC framing and concrete structures
+
 
                                                     </li>
-                                                    <li> Bulldozers
+                                                    <li> Steel structures and fabrication
+</li>
+<li>Retaining walls and boundary walls</li>
+                                                  
+                                                </ol>
+                                               
+                                            </div>
+                                          <div className="m-b0">
+                                                         <h4 className="font-weight-600"> Site Development</h4>
+                                                <ol className="list-num-count" style={{textAlign:'justify',textJustify:'inter-word'}}>
+                                                    <li>Land grading and leveling
 
                                                     </li>
-                                                    <li>Backhoe Loaders
+                                                    <li> Road construction and paving
 
 
+                                                    </li>
+                                                    <li>Drainage and stormwater systems
+
 </li>
-<li>Motor Graders
+<li>Earthworks and excavation</li>
+                                                  
+                                                </ol>
+                                               
+                                            </div>
+                                          <div className="m-b0">
+                                                         <h4 className="font-weight-600">  Masonry & Finishing Works</h4>
+                                                <ol className="list-num-count" style={{textAlign:'justify',textJustify:'inter-word'}}>
+                                                    <li>Blockwork and brick masonry
+
+                                                    </li>
+                                                    <li> Plastering, tiling & flooring
+
+
+
+
+                                                    </li>
+                                                    <li>Painting and waterproofing
+
 </li>
-<li>Wheel Loaders</li>
+<li>Interior and exterior finishing</li>
                                                   
                                                 </ol>
                                                
                                             </div>
 
- <div className="m-b0">
-                                                         <h4 className="font-weight-600">Lifting & Handling</h4>
-                                                <ol className="list-num-count" style={{textAlign:'justify',textJustify:'inter-word'}}>
-                                                    <li>Forklifts
-
-                                                    </li>
-                                                    <li> Cranes (Mobile, Crawler)
-
-                                                    </li>
-                                                    <li>Boom Lifts
 
 
-
-</li>
-<li>Scissor Lifts
-
-</li>
-                                                  
-                                                </ol>
-                                               
-                                            </div>
- <div className="m-b0">
-                                                         <h4 className="font-weight-600">Power & Utility</h4>
-                                                <ol className="list-num-count" style={{textAlign:'justify',textJustify:'inter-word'}}>
-                                                    <li>Diesel Generators
-
-                                                    </li>
-                                                    <li>Air Compressors
-
-                                                    </li>
-                                                    <li>Welding Machines
-
-
-
-</li>
-<li>Lighting Towers
-
-</li>
-                                                  
-                                                </ol>
-                                               
-                                            </div>
                                             
 
                                         <div className="m-b0">
@@ -156,72 +143,64 @@ class EquipmentPage    extends React.Component {
                                         <div className="col-md-4 col-sm-4">
                                             <div className="project-detail-pic m-b30">
                                                 <div className="mt-media">
-                                                    <img src={require('./../../images/all bobsco/service/Equipment1.webp')} alt="" />
+                                                    <img src={require('./../../images/all bobsco/service/Civil1.webp')} alt="" />
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="col-md-4 col-sm-4">
                                             <div className="project-detail-pic m-b30">
                                                 <div className="mt-media">
-                                                    <img src={require('./../../images/all bobsco/service/Equipment2.webp')} alt="" />
+                                                    <img src={require('./../../images/all bobsco/service/Civil2.webp')} alt="" />
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="col-md-4 col-sm-4">
                                             <div className="project-detail-pic m-b30">
                                                 <div className="mt-media">
-                                                    <img src={require('./../../images/all bobsco/service/Equipment3.webp')} alt="" />
+                                                    <img src={require('./../../images/all bobsco/service/Civil3.webp')} alt="" />
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
   
-<div className="m-b0">
-                                                         <h4 className="font-weight-600">Site Support Equipment</h4>
+
+                               
+                                
+
+                                            <div className="m-b0">
+                                                         <h4 className="font-weight-600">Industrial & Infrastructure Support</h4>
                                                 <ol className="list-num-count" style={{textAlign:'justify',textJustify:'inter-word'}}>
-                                                    <li>Water Tankers
+                                                    <li> Factory shed & warehouse construction
 
                                                     </li>
-                                                    <li> Tippers & Dump Trucks
-
+                                                    <li> Utility trenches and cable duct works
 
                                                     </li>
-                                                    <li>Compact Rollers
-
-
+                                                    <li>Compound walls & fencing
 </li>
-                                                    <li>Dewatering Pumps
-
+                                                    <li>RCC tanks & manholes
 </li>
-                                                  
                                                 </ol>
                                                
                                             </div>
-<div className="m-b0">
+                                            <div className="m-b0">
                                                          <h4 className="font-weight-600">Why Choose Us?</h4>
                                                 <ol className="list-num-count" style={{textAlign:'justify',textJustify:'inter-word'}}>
-                                                    <li>Well-Maintained & Certified Equipment
+                                                    <li> Experienced Civil Engineers & Supervisors
+                                                    </li>
+                                                    <li> End-to-End Project Management
 
                                                     </li>
-                                                    <li> Timely Delivery & Pickup
-
-
-                                                    </li>
-                                                    <li>Flexible Rental Terms (Hourly, Daily, Monthly)
-
-
+                                                    <li>Quality Materials & Skilled Workforce
 </li>
-                                                    <li>Experienced Operators (Optional)
-
+                                                    <li>Timely Completion & Transparent Process
 </li>
-                                                    <li>Competitive Rates & Transparent Billing
-
+                                                    <li>  Safety-Compliant and Cost-Effective
 </li>
                                                 </ol>
                                                
                                             </div>
-                                            
 
 
 
@@ -264,4 +243,4 @@ class EquipmentPage    extends React.Component {
     };
 };
 
-export default EquipmentPage;
+export default CivilPage;

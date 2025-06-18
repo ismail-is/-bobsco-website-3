@@ -8,7 +8,7 @@ import ReactPlayer from 'react-player';
 
 var bnrimg = require('./../../images/banner/5.jpg');
 
-class EquipmentPage    extends React.Component {
+class SteelPage    extends React.Component {
     
     render() {
         return (
@@ -23,9 +23,7 @@ class EquipmentPage    extends React.Component {
                         <div className="section-head">
                             <div className="mt-separator-outer separator-left" style={{display:'flex',justifyContent:'center'}}>
                                 <div className="mt-separator" >
-                                    <h2 className="text-uppercase sep-line-one " style={{color:'#E81D21'}}><span className="font-weight-300 text-primary">  </span>Equipment Rental Services
-
-</h2>
+                                    <h2 className="text-uppercase sep-line-one " style={{color:'#E81D21'}}><span className="font-weight-300 text-primary">  </span>Steel Structure Fabrication Services</h2>
                                 </div>
                             </div>
                         </div>
@@ -76,79 +74,70 @@ class EquipmentPage    extends React.Component {
                                     <div className="bg-white text-black">
                                         {/* <h4 className="font-weight-600">Fueling Growth with Precision and Expertise</h4> */}
                                        
-<h4 className="font-weight-600">  Powering Your Projects with Reliable Equipment</h4>
-<p style={{textAlign:'justify',textJustify:'inter-word'}}>We offer a wide range of heavy and light equipment rental services tailored to construction, industrial, and infrastructure projects. Whether you need equipment for a day, a week, or a long-term project, we provide well-maintained machines with or without operators — ready to perform when you are.
+<h4 className="font-weight-600"> Precision. Strength. Durability</h4>
+<p style={{textAlign:'justify',textJustify:'inter-word'}}>We offer end-to-end steel structure fabrication and erection services for industrial, commercial, and infrastructure projects. With a focus on engineering accuracy, material quality, and timely execution, our solutions are built to last and perform under pressure.
 
 
 
                                         </p>
-<h4 className="font-weight-600"> Our Rental Fleet Includes:</h4>
-<h4 className="font-weight-600"> Refrigeration System Installation</h4>
-
+                                        <h4 className="font-weight-600">Our Services Include</h4>
 
                                           <div className="m-b0">
-                                                         <h4 className="font-weight-600">Heavy Equipment</h4>
+                                                         <h4 className="font-weight-600"> Steel Fabrication</h4>
                                                 <ol className="list-num-count" style={{textAlign:'justify',textJustify:'inter-word'}}>
-                                                    <li>Excavators
+                                                    <li>Custom structural steel fabrication
+                                                    </li>
+                                                    <li> Beams, columns, trusses, and girders
+
 
                                                     </li>
-                                                    <li> Bulldozers
+                                                    <li> Pre-engineered building (PEB) components
+
+</li>
+<li>Sheet metal cutting, bending & welding</li>
+                                                  
+                                                </ol>
+                                               
+                                            </div>
+                                          <div className="m-b0">
+                                                         <h4 className="font-weight-600">Steel Structure Erection</h4>
+                                                <ol className="list-num-count" style={{textAlign:'justify',textJustify:'inter-word'}}>
+                                                    <li>On-site assembly & installation
+                                                    </li>
+                                                    <li> Beams, columns, trusses, and girders
+
 
                                                     </li>
-                                                    <li>Backhoe Loaders
-
+                                                    <li>Heavy structure lifting & alignment
 
 </li>
-<li>Motor Graders
+<li>Bolted and welded joint installation</li>
+<li>Safety-compliant erection procedures</li>
+                                                  
+                                                </ol>
+                                               
+                                            </div>
+                                          <div className="m-b0">
+                                                         <h4 className="font-weight-600"> Project Capabilities</h4>
+                                                <ol className="list-num-count" style={{textAlign:'justify',textJustify:'inter-word'}}>
+                                                    <li>Warehouses & factory sheds
+                                                    </li>
+                                                    <li> Industrial platforms & walkways
+
+
+
+                                                    </li>
+                                                    <li>Steel roofing systems
+
 </li>
-<li>Wheel Loaders</li>
+<li>Mezzanine floors & structural supports</li>
                                                   
                                                 </ol>
                                                
                                             </div>
 
- <div className="m-b0">
-                                                         <h4 className="font-weight-600">Lifting & Handling</h4>
-                                                <ol className="list-num-count" style={{textAlign:'justify',textJustify:'inter-word'}}>
-                                                    <li>Forklifts
-
-                                                    </li>
-                                                    <li> Cranes (Mobile, Crawler)
-
-                                                    </li>
-                                                    <li>Boom Lifts
 
 
-
-</li>
-<li>Scissor Lifts
-
-</li>
-                                                  
-                                                </ol>
-                                               
-                                            </div>
- <div className="m-b0">
-                                                         <h4 className="font-weight-600">Power & Utility</h4>
-                                                <ol className="list-num-count" style={{textAlign:'justify',textJustify:'inter-word'}}>
-                                                    <li>Diesel Generators
-
-                                                    </li>
-                                                    <li>Air Compressors
-
-                                                    </li>
-                                                    <li>Welding Machines
-
-
-
-</li>
-<li>Lighting Towers
-
-</li>
-                                                  
-                                                </ol>
-                                               
-                                            </div>
                                             
 
                                         <div className="m-b0">
@@ -156,72 +145,49 @@ class EquipmentPage    extends React.Component {
                                         <div className="col-md-4 col-sm-4">
                                             <div className="project-detail-pic m-b30">
                                                 <div className="mt-media">
-                                                    <img src={require('./../../images/all bobsco/service/Equipment1.webp')} alt="" />
+                                                    <img src={require('./../../images/all bobsco/service/Steel1.webp')} alt="" />
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="col-md-4 col-sm-4">
                                             <div className="project-detail-pic m-b30">
                                                 <div className="mt-media">
-                                                    <img src={require('./../../images/all bobsco/service/Equipment2.webp')} alt="" />
+                                                    <img src={require('./../../images/all bobsco/service/Steel2.webp')} alt="" />
                                                 </div>
                                             </div>
                                         </div>
                                         <div className="col-md-4 col-sm-4">
                                             <div className="project-detail-pic m-b30">
                                                 <div className="mt-media">
-                                                    <img src={require('./../../images/all bobsco/service/Equipment3.webp')} alt="" />
+                                                    <img src={require('./../../images/all bobsco/service/Steel3.webp')} alt="" />
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
   
-<div className="m-b0">
-                                                         <h4 className="font-weight-600">Site Support Equipment</h4>
-                                                <ol className="list-num-count" style={{textAlign:'justify',textJustify:'inter-word'}}>
-                                                    <li>Water Tankers
 
-                                                    </li>
-                                                    <li> Tippers & Dump Trucks
+                               
+                                
 
-
-                                                    </li>
-                                                    <li>Compact Rollers
-
-
-</li>
-                                                    <li>Dewatering Pumps
-
-</li>
-                                                  
-                                                </ol>
-                                               
-                                            </div>
-<div className="m-b0">
+                                            <div className="m-b0">
                                                          <h4 className="font-weight-600">Why Choose Us?</h4>
                                                 <ol className="list-num-count" style={{textAlign:'justify',textJustify:'inter-word'}}>
-                                                    <li>Well-Maintained & Certified Equipment
+                                                    <li>  Experienced Fabricators & Engineers
 
                                                     </li>
-                                                    <li> Timely Delivery & Pickup
-
+                                                    <li> In-house Welding & CNC Cutting Facilities
 
                                                     </li>
-                                                    <li>Flexible Rental Terms (Hourly, Daily, Monthly)
-
-
+                                                    <li>High-Grade Structural Steel & Materials
 </li>
-                                                    <li>Experienced Operators (Optional)
-
+                                                    <li>Quality Assurance & Safety Compliance
 </li>
-                                                    <li>Competitive Rates & Transparent Billing
-
+                                                    <li> Timely Delivery & Cost-Effective Solutions
 </li>
                                                 </ol>
                                                
                                             </div>
-                                            
 
 
 
@@ -264,4 +230,4 @@ class EquipmentPage    extends React.Component {
     };
 };
 
-export default EquipmentPage;
+export default SteelPage;
